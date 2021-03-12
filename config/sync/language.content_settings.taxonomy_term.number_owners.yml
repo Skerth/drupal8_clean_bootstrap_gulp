@@ -1,0 +1,11 @@
+uuid: fbb86161-5c29-4209-bc80-5753614e0e32
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.number_owners
+id: taxonomy_term.number_owners
+target_entity_type_id: taxonomy_term
+target_bundle: number_owners
+default_langcode: site_default
+language_alterable: false

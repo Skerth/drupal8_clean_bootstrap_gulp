@@ -1,0 +1,8 @@
+uuid: a8af1010-7adf-407b-98c7-37450349677d
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Марка и модель автомобиля'
+vid: car_brand_model
+description: ''
+weight: 0

@@ -1,0 +1,8 @@
+uuid: ed5c4afb-e43e-4334-8c03-b6c912b148cc
+langcode: ru
+status: true
+dependencies: {  }
+name: Безопасность
+vid: safety
+description: ''
+weight: 0

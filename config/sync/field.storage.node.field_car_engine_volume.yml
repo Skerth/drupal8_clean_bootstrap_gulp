@@ -1,0 +1,20 @@
+uuid: a41deca2-6720-4223-aab0-060bdaec52b7
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_car_engine_volume
+field_name: field_car_engine_volume
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

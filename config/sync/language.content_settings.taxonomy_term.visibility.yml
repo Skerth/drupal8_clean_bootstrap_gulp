@@ -1,0 +1,11 @@
+uuid: 10804c33-d8a7-46f9-a655-07f7671c12ec
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.visibility
+id: taxonomy_term.visibility
+target_entity_type_id: taxonomy_term
+target_bundle: visibility
+default_langcode: site_default
+language_alterable: false

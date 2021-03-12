@@ -1,0 +1,20 @@
+uuid: 346b38c8-7346-4f41-895c-562f6703ea07
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_car_exterior_elements
+field_name: field_car_exterior_elements
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

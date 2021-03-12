@@ -1,0 +1,247 @@
+uuid: b9dc459e-de85-44ee-a2fb-03b25f2f399b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.car.field_car_anti_theft_protection
+    - field.field.node.car.field_car_body_type
+    - field.field.node.car.field_car_brand_model
+    - field.field.node.car.field_car_cabin
+    - field.field.node.car.field_car_color
+    - field.field.node.car.field_car_comfort
+    - field.field.node.car.field_car_engine_type
+    - field.field.node.car.field_car_engine_volume
+    - field.field.node.car.field_car_exterior_elements
+    - field.field.node.car.field_car_gear_box
+    - field.field.node.car.field_car_mileage
+    - field.field.node.car.field_car_multimedia
+    - field.field.node.car.field_car_number_owners
+    - field.field.node.car.field_car_old_price
+    - field.field.node.car.field_car_other_options
+    - field.field.node.car.field_car_photo
+    - field.field.node.car.field_car_power
+    - field.field.node.car.field_car_price
+    - field.field.node.car.field_car_safety
+    - field.field.node.car.field_car_state
+    - field.field.node.car.field_car_steering_wheel
+    - field.field.node.car.field_car_type_drive
+    - field.field.node.car.field_car_vehicle_passport
+    - field.field.node.car.field_car_visibility
+    - node.type.car
+  module:
+    - svg_image
+    - user
+id: node.car.default
+targetEntityType: node
+bundle: car
+mode: default
+content:
+  field_car_anti_theft_protection:
+    weight: 120
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_body_type:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_brand_model:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_cabin:
+    weight: 122
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_color:
+    weight: 116
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_comfort:
+    weight: 124
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_engine_type:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_engine_volume:
+    weight: 109
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_car_exterior_elements:
+    weight: 119
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_gear_box:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_mileage:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_car_multimedia:
+    weight: 123
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_number_owners:
+    weight: 115
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_old_price:
+    weight: 113
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_car_other_options:
+    weight: 126
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_photo:
+    weight: 108
+    label: above
+    settings:
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_car_power:
+    weight: 110
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_car_price:
+    weight: 112
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_car_safety:
+    weight: 125
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_state:
+    weight: 117
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_steering_wheel:
+    weight: 111
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_type_drive:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_vehicle_passport:
+    weight: 114
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_car_visibility:
+    weight: 118
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

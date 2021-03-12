@@ -1,0 +1,8 @@
+uuid: c25da689-c5c7-44c4-b093-d77c0c70b6c5
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Тип двигателя'
+vid: engine_type
+description: ''
+weight: 0

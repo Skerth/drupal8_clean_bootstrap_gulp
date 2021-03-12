@@ -1,0 +1,29 @@
+uuid: f41b2185-14d1-4d23-a58c-4da1fa8c3d32
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_gear_box
+    - node.type.car
+    - taxonomy.vocabulary.gear_box
+id: node.car.field_car_gear_box
+field_name: field_car_gear_box
+entity_type: node
+bundle: car
+label: КПП
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      gear_box: gear_box
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,69 @@
+uuid: ea9270b9-adc2-42f7-ae40-36fade246619
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.car.field_car_anti_theft_protection
+    - field.field.node.car.field_car_body_type
+    - field.field.node.car.field_car_brand_model
+    - field.field.node.car.field_car_cabin
+    - field.field.node.car.field_car_color
+    - field.field.node.car.field_car_comfort
+    - field.field.node.car.field_car_engine_type
+    - field.field.node.car.field_car_engine_volume
+    - field.field.node.car.field_car_exterior_elements
+    - field.field.node.car.field_car_gear_box
+    - field.field.node.car.field_car_mileage
+    - field.field.node.car.field_car_multimedia
+    - field.field.node.car.field_car_number_owners
+    - field.field.node.car.field_car_old_price
+    - field.field.node.car.field_car_other_options
+    - field.field.node.car.field_car_photo
+    - field.field.node.car.field_car_power
+    - field.field.node.car.field_car_price
+    - field.field.node.car.field_car_safety
+    - field.field.node.car.field_car_state
+    - field.field.node.car.field_car_steering_wheel
+    - field.field.node.car.field_car_type_drive
+    - field.field.node.car.field_car_vehicle_passport
+    - field.field.node.car.field_car_visibility
+    - node.type.car
+  module:
+    - user
+id: node.car.teaser
+targetEntityType: node
+bundle: car
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_car_anti_theft_protection: true
+  field_car_body_type: true
+  field_car_brand_model: true
+  field_car_cabin: true
+  field_car_color: true
+  field_car_comfort: true
+  field_car_engine_type: true
+  field_car_engine_volume: true
+  field_car_exterior_elements: true
+  field_car_gear_box: true
+  field_car_mileage: true
+  field_car_multimedia: true
+  field_car_number_owners: true
+  field_car_old_price: true
+  field_car_other_options: true
+  field_car_photo: true
+  field_car_power: true
+  field_car_price: true
+  field_car_safety: true
+  field_car_state: true
+  field_car_steering_wheel: true
+  field_car_type_drive: true
+  field_car_vehicle_passport: true
+  field_car_visibility: true
+  langcode: true

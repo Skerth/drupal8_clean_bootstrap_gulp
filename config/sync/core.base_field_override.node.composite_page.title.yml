@@ -1,0 +1,18 @@
+uuid: b758ddce-15df-492d-a882-72b0565cd89e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.composite_page
+id: node.composite_page.title
+field_name: title
+entity_type: node
+bundle: composite_page
+label: Заголовок
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,8 @@
+uuid: 086c67ed-6467-4139-abc0-d0c9c5622802
+langcode: ru
+status: true
+dependencies: {  }
+name: Салон
+vid: cabin
+description: ''
+weight: 0

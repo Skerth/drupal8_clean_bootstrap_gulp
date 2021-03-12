@@ -1,0 +1,20 @@
+uuid: a2404789-f50d-44c7-b562-581fedb0b3ba
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_car_comfort
+field_name: field_car_comfort
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

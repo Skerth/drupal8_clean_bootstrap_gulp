@@ -1,0 +1,11 @@
+uuid: 3897cb88-a712-46c5-948e-0e472179069d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.safety
+id: taxonomy_term.safety
+target_entity_type_id: taxonomy_term
+target_bundle: safety
+default_langcode: site_default
+language_alterable: false

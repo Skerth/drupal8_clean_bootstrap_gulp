@@ -1,0 +1,8 @@
+uuid: 6e7be8c5-d5d3-46a2-9e26-c28f1c06e91c
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Элементы экстерьера'
+vid: exterior_elements
+description: ''
+weight: 0

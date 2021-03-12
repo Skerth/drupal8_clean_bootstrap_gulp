@@ -1,0 +1,29 @@
+uuid: 8d8c9f82-020a-44a5-ac58-d0898073a1fa
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_type_drive
+    - node.type.car
+    - taxonomy.vocabulary.type_drive
+id: node.car.field_car_type_drive
+field_name: field_car_type_drive
+entity_type: node
+bundle: car
+label: 'Тип привода'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_drive: type_drive
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: 4b5e9455-9311-43e9-a520-01d91bcb181d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.composite_page.body
+    - node.type.composite_page
+  module:
+    - text
+    - user
+id: node.composite_page.default
+targetEntityType: node
+bundle: composite_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

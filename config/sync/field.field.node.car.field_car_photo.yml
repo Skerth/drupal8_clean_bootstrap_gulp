@@ -1,0 +1,57 @@
+uuid: 422a7940-3498-4433-a102-00fc52eb82af
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_photo
+    - node.type.car
+  module:
+    - filefield_paths
+    - image
+third_party_settings:
+  filefield_paths:
+    enabled: true
+    file_path:
+      value: 'car/[current-date:custom:Y]/[current-date:custom:m]'
+      options:
+        slashes: false
+        pathauto: true
+        transliterate: true
+    redirect: false
+    retroactive_update: false
+    active_updating: false
+    file_name:
+      value: '[random:hash:md2][file:fid].[file:ffp-extension-original]'
+      options:
+        slashes: false
+        pathauto: true
+        transliterate: true
+id: node.car.field_car_photo
+field_name: field_car_photo
+entity_type: node
+bundle: car
+label: Фотогорафии
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 1200x1200
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

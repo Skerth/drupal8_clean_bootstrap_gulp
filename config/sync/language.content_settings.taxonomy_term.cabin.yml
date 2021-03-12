@@ -1,0 +1,11 @@
+uuid: d9ed480d-6cd0-4c6b-942a-75e0e150e7cf
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cabin
+id: taxonomy_term.cabin
+target_entity_type_id: taxonomy_term
+target_bundle: cabin
+default_langcode: site_default
+language_alterable: false

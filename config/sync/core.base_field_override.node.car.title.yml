@@ -1,0 +1,18 @@
+uuid: 8f76e26a-13ad-4484-ac84-a04c9ba10ecc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.car
+id: node.car.title
+field_name: title
+entity_type: node
+bundle: car
+label: Название
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

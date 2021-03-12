@@ -1,0 +1,8 @@
+uuid: f555edc2-1504-45bc-9212-a5bdfcad33b0
+langcode: ru
+status: true
+dependencies: {  }
+name: Состояние
+vid: state
+description: ''
+weight: 0

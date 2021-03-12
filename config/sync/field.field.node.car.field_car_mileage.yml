@@ -1,0 +1,23 @@
+uuid: 96998be5-3d49-4086-8a96-14a18a818d6c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_mileage
+    - node.type.car
+id: node.car.field_car_mileage
+field_name: field_car_mileage
+entity_type: node
+bundle: car
+label: Пробег
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' км.'
+field_type: integer

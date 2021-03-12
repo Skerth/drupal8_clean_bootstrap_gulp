@@ -1,0 +1,11 @@
+uuid: d7f97cbc-2bc7-459e-ab7e-8095a9d7b9d8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.multimedia
+id: taxonomy_term.multimedia
+target_entity_type_id: taxonomy_term
+target_bundle: multimedia
+default_langcode: site_default
+language_alterable: false

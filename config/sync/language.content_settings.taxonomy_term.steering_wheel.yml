@@ -1,0 +1,11 @@
+uuid: 0150ed1e-5fc1-4766-b6ed-0419f5d54847
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.steering_wheel
+id: taxonomy_term.steering_wheel
+target_entity_type_id: taxonomy_term
+target_bundle: steering_wheel
+default_langcode: site_default
+language_alterable: false

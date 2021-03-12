@@ -1,0 +1,20 @@
+uuid: 74fb8d9c-00ac-455d-9acd-2ddc45f6fa10
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_car_safety
+field_name: field_car_safety
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

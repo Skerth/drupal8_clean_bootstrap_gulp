@@ -1,0 +1,29 @@
+uuid: 32020071-df96-4880-a836-f7563d231567
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_safety
+    - node.type.car
+    - taxonomy.vocabulary.safety
+id: node.car.field_car_safety
+field_name: field_car_safety
+entity_type: node
+bundle: car
+label: Безопасность
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      safety: safety
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,8 @@
+uuid: 213d7a4d-2e11-4ff9-88e4-cbce3e6d4b7e
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Защита от угона'
+vid: anti_theft_protection
+description: ''
+weight: 0

@@ -1,0 +1,8 @@
+uuid: 09cbfae4-b678-4143-a75d-a6582cb9b506
+langcode: ru
+status: true
+dependencies: {  }
+name: КПП
+vid: gear_box
+description: ''
+weight: 0

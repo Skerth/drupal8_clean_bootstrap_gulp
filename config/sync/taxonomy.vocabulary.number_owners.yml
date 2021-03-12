@@ -1,0 +1,8 @@
+uuid: e5e01654-2b8d-44fa-abf9-e102cc24f28f
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Количество владельцев'
+vid: number_owners
+description: ''
+weight: 0

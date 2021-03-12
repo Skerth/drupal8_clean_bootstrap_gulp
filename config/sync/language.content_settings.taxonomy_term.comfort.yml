@@ -1,0 +1,11 @@
+uuid: b85a0e6b-2eaa-4761-8f62-74fdaead4b4e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.comfort
+id: taxonomy_term.comfort
+target_entity_type_id: taxonomy_term
+target_bundle: comfort
+default_langcode: site_default
+language_alterable: false

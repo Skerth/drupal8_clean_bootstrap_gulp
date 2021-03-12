@@ -1,0 +1,8 @@
+uuid: 78007e5d-e663-472a-b7d5-551c14f97cba
+langcode: ru
+status: true
+dependencies: {  }
+name: Руль
+vid: steering_wheel
+description: ''
+weight: 0

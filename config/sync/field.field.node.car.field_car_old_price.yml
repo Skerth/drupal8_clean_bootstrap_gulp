@@ -1,0 +1,23 @@
+uuid: 99ef2ba6-acf3-4f42-95c5-c040c4a98f3f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_old_price
+    - node.type.car
+id: node.car.field_car_old_price
+field_name: field_car_old_price
+entity_type: node
+bundle: car
+label: 'Старая цена'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' ₽'
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 77b0b23f-91af-4716-91e3-15188e7b8391
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_engine_volume
+    - node.type.car
+id: node.car.field_car_engine_volume
+field_name: field_car_engine_volume
+entity_type: node
+bundle: car
+label: 'Объем двигателя'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: см<sup>3</sup>
+field_type: integer

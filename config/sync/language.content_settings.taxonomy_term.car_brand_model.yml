@@ -1,0 +1,11 @@
+uuid: a0cbcac4-9519-40e4-b79a-451ba2a2cee5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.car_brand_model
+id: taxonomy_term.car_brand_model
+target_entity_type_id: taxonomy_term
+target_bundle: car_brand_model
+default_langcode: site_default
+language_alterable: false

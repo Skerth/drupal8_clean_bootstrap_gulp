@@ -1,0 +1,29 @@
+uuid: 119024c0-103c-4120-815b-d47906540a8c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_vehicle_passport
+    - node.type.car
+    - taxonomy.vocabulary.vehicle_passport
+id: node.car.field_car_vehicle_passport
+field_name: field_car_vehicle_passport
+entity_type: node
+bundle: car
+label: ПТС
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vehicle_passport: vehicle_passport
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

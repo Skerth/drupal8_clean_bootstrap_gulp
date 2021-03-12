@@ -1,0 +1,29 @@
+uuid: ae6758a1-8724-4a7e-9f56-39c2e3e85d06
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_state
+    - node.type.car
+    - taxonomy.vocabulary.state
+id: node.car.field_car_state
+field_name: field_car_state
+entity_type: node
+bundle: car
+label: Состояние
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      state: state
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: 59da6c13-1953-456d-8a9c-21a90c833b84
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_engine_type
+    - node.type.car
+    - taxonomy.vocabulary.engine_type
+id: node.car.field_car_engine_type
+field_name: field_car_engine_type
+entity_type: node
+bundle: car
+label: 'Тип двигателя'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      engine_type: engine_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

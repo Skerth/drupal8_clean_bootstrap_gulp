@@ -1,0 +1,8 @@
+uuid: f342d353-8fe2-4a6f-aadd-e6eac9b3e7f6
+langcode: ru
+status: true
+dependencies: {  }
+name: ПТС
+vid: vehicle_passport
+description: ''
+weight: 0

@@ -1,0 +1,8 @@
+uuid: 41441299-84fb-420d-88d9-6891842fb2ed
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Тип кузова'
+vid: body_type
+description: ''
+weight: 0

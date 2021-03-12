@@ -1,0 +1,11 @@
+uuid: db95ed1f-3ec7-4577-a75e-67d335581678
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_drive
+id: taxonomy_term.type_drive
+target_entity_type_id: taxonomy_term
+target_bundle: type_drive
+default_langcode: site_default
+language_alterable: false

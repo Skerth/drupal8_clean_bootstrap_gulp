@@ -1,0 +1,29 @@
+uuid: 115f7995-e1bc-450a-b907-7c341a3cde84
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_cabin
+    - node.type.car
+    - taxonomy.vocabulary.cabin
+id: node.car.field_car_cabin
+field_name: field_car_cabin
+entity_type: node
+bundle: car
+label: Салон
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      cabin: cabin
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

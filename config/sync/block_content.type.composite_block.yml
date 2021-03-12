@@ -1,0 +1,8 @@
+uuid: 76f81df6-de58-4498-82aa-d54560f08f3c
+langcode: ru
+status: true
+dependencies: {  }
+id: composite_block
+label: 'Составной блок'
+revision: 0
+description: ''

@@ -1,0 +1,23 @@
+uuid: 6805b223-2630-4f2e-b8bf-8044045e3b3e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.composite_block
+    - field.field.block_content.composite_block.body
+  module:
+    - text
+id: block_content.composite_block.default
+targetEntityType: block_content
+bundle: composite_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

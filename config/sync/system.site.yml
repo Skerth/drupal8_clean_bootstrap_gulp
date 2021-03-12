@@ -1,0 +1,14 @@
+uuid: a16d5001-7aba-4937-86f6-4623bc8332e2
+name: Авто-Старт
+mail: sklyatov@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ru
+default_langcode: ru
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

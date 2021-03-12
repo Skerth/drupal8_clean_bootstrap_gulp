@@ -1,0 +1,17 @@
+uuid: 71ae2beb-343d-44cd-9b12-38afde0d8a51
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Автомобиль
+type: car
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

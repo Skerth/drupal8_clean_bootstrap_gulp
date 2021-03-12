@@ -1,0 +1,8 @@
+uuid: a67c024b-49b8-4e11-9938-83b97ce3e5b3
+langcode: ru
+status: true
+dependencies: {  }
+name: Цвета
+vid: colors
+description: ''
+weight: 0

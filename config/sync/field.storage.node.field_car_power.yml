@@ -1,0 +1,20 @@
+uuid: 8f2e1f4e-ad3d-401b-a4ea-52214834ec73
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_car_power
+field_name: field_car_power
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

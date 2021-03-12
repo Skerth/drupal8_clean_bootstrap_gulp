@@ -1,0 +1,23 @@
+uuid: 1092e1d2-ffd6-4b85-b024-121609e0ad7c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_price
+    - node.type.car
+id: node.car.field_car_price
+field_name: field_car_price
+entity_type: node
+bundle: car
+label: Цена
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' ₽'
+field_type: integer

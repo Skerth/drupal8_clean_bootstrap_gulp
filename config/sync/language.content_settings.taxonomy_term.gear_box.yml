@@ -1,0 +1,11 @@
+uuid: 7c5cf41b-094f-43a3-b508-6014b11bcf09
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.gear_box
+id: taxonomy_term.gear_box
+target_entity_type_id: taxonomy_term
+target_bundle: gear_box
+default_langcode: site_default
+language_alterable: false

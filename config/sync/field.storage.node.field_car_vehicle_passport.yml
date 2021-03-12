@@ -1,0 +1,20 @@
+uuid: 38fa8255-9f6c-4db9-ad42-e926bfb885eb
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_car_vehicle_passport
+field_name: field_car_vehicle_passport
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

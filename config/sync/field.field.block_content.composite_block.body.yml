@@ -1,0 +1,23 @@
+uuid: 55ed8251-7fc6-4c62-aa2b-46fb9ccee60d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.composite_block
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.composite_block.body
+field_name: body
+entity_type: block_content
+bundle: composite_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,8 @@
+uuid: 7c058be4-159a-48aa-8da2-8122ddfe1a63
+langcode: ru
+status: true
+dependencies: {  }
+name: Мультимедиа
+vid: multimedia
+description: ''
+weight: 0

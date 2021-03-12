@@ -1,0 +1,502 @@
+uuid: 47beb085-ef15-41e4-8530-5dceed670ee5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.car.field_car_anti_theft_protection
+    - field.field.node.car.field_car_body_type
+    - field.field.node.car.field_car_brand_model
+    - field.field.node.car.field_car_cabin
+    - field.field.node.car.field_car_color
+    - field.field.node.car.field_car_comfort
+    - field.field.node.car.field_car_engine_type
+    - field.field.node.car.field_car_engine_volume
+    - field.field.node.car.field_car_exterior_elements
+    - field.field.node.car.field_car_gear_box
+    - field.field.node.car.field_car_mileage
+    - field.field.node.car.field_car_multimedia
+    - field.field.node.car.field_car_number_owners
+    - field.field.node.car.field_car_old_price
+    - field.field.node.car.field_car_other_options
+    - field.field.node.car.field_car_photo
+    - field.field.node.car.field_car_power
+    - field.field.node.car.field_car_price
+    - field.field.node.car.field_car_safety
+    - field.field.node.car.field_car_state
+    - field.field.node.car.field_car_steering_wheel
+    - field.field.node.car.field_car_type_drive
+    - field.field.node.car.field_car_vehicle_passport
+    - field.field.node.car.field_car_visibility
+    - image.style.thumbnail
+    - node.type.car
+  module:
+    - cshs
+    - field_group
+    - path
+    - svg_image
+    - term_reference_tree
+third_party_settings:
+  field_group:
+    group_price:
+      children:
+        - field_car_old_price
+        - field_car_price
+      parent_name: group_main
+      weight: 15
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Цена
+    group_tabs:
+      children:
+        - group_main
+        - group_photos
+        - group_options
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      region: content
+      format_settings:
+        direction: horizontal
+        id: ''
+        classes: ''
+      label: Табы
+    group_main:
+      children:
+        - title
+        - field_car_brand_model
+        - field_car_vehicle_passport
+        - field_car_number_owners
+        - field_car_color
+        - field_car_body_type
+        - field_car_state
+        - field_car_engine_type
+        - field_car_engine_volume
+        - field_car_power
+        - field_car_mileage
+        - field_car_type_drive
+        - field_car_gear_box
+        - field_car_steering_wheel
+        - group_price
+      parent_name: group_tabs
+      weight: 21
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Основное
+    group_photos:
+      children:
+        - field_car_photo
+      parent_name: group_tabs
+      weight: 22
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Фотографии
+    group_options:
+      children:
+        - group_visibility
+        - group_exterior_elements
+        - group_anti_theft_protection
+        - group_multimedia
+        - group_cabin
+        - group_comfort
+        - group_safety
+        - group_other
+      parent_name: group_tabs
+      weight: 23
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Опции
+    group_exterior_elements:
+      children:
+        - field_car_exterior_elements
+      parent_name: group_options
+      weight: 21
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'Элементы экстерьера'
+    group_visibility:
+      children:
+        - field_car_visibility
+      parent_name: group_options
+      weight: 20
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+        open: false
+      label: Обзор
+    group_anti_theft_protection:
+      children:
+        - field_car_anti_theft_protection
+      parent_name: group_options
+      weight: 22
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'Защита от угона'
+    group_multimedia:
+      children:
+        - field_car_multimedia
+      parent_name: group_options
+      weight: 23
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Мультимедиа
+    group_cabin:
+      children:
+        - field_car_cabin
+      parent_name: group_options
+      weight: 24
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Салон
+    group_comfort:
+      children:
+        - field_car_comfort
+      parent_name: group_options
+      weight: 25
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Комфорт
+    group_safety:
+      children:
+        - field_car_safety
+      parent_name: group_options
+      weight: 26
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Безопасность
+    group_other:
+      children:
+        - field_car_other_options
+      parent_name: group_options
+      weight: 27
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Прочее
+id: node.car.default
+targetEntityType: node
+bundle: car
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_car_anti_theft_protection:
+    weight: 29
+    settings:
+      leaves_only: true
+      cascading_selection: 0
+      max_depth: 0
+      start_minimized: false
+      select_parents: false
+    third_party_settings: {  }
+    type: term_reference_tree
+    region: content
+  field_car_body_type:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_car_brand_model:
+    weight: 2
+    settings:
+      parent: '0'
+      force_deepest: true
+      level_labels: ''
+      none_label: '- Выбрать -'
+      hierarchy_depth: 0
+      required_depth: 0
+      save_lineage: false
+    third_party_settings: {  }
+    type: cshs
+    region: content
+  field_car_cabin:
+    weight: 31
+    settings:
+      leaves_only: true
+      cascading_selection: 0
+      max_depth: 0
+      start_minimized: false
+      select_parents: false
+    third_party_settings: {  }
+    type: term_reference_tree
+    region: content
+  field_car_color:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_car_comfort:
+    weight: 10
+    settings:
+      leaves_only: true
+      cascading_selection: 0
+      max_depth: 0
+      start_minimized: false
+      select_parents: false
+    third_party_settings: {  }
+    type: term_reference_tree
+    region: content
+  field_car_engine_type:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_car_engine_volume:
+    weight: 9
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_car_exterior_elements:
+    weight: 28
+    settings:
+      leaves_only: true
+      cascading_selection: 0
+      max_depth: 0
+      start_minimized: false
+      select_parents: false
+    third_party_settings: {  }
+    type: term_reference_tree
+    region: content
+  field_car_gear_box:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_car_mileage:
+    weight: 11
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_car_multimedia:
+    weight: 32
+    settings:
+      leaves_only: true
+      cascading_selection: 0
+      max_depth: 0
+      start_minimized: false
+      select_parents: false
+    third_party_settings: {  }
+    type: term_reference_tree
+    region: content
+  field_car_number_owners:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_car_old_price:
+    weight: 20
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_car_other_options:
+    weight: 12
+    settings:
+      leaves_only: true
+      cascading_selection: 0
+      max_depth: 0
+      start_minimized: false
+      select_parents: false
+    third_party_settings: {  }
+    type: term_reference_tree
+    region: content
+  field_car_photo:
+    weight: 9
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_car_power:
+    weight: 10
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_car_price:
+    weight: 21
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_car_safety:
+    weight: 11
+    settings:
+      leaves_only: true
+      cascading_selection: 0
+      max_depth: 0
+      start_minimized: false
+      select_parents: false
+    third_party_settings: {  }
+    type: term_reference_tree
+    region: content
+  field_car_state:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_car_steering_wheel:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_car_type_drive:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_car_vehicle_passport:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_car_visibility:
+    weight: 21
+    settings:
+      leaves_only: true
+      cascading_selection: 0
+      max_depth: 0
+      start_minimized: false
+      select_parents: false
+    third_party_settings: {  }
+    type: term_reference_tree
+    region: content
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

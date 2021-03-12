@@ -1,0 +1,11 @@
+uuid: 3fabfe87-18c8-46a8-bad3-3d126c89dec0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.exterior_elements
+id: taxonomy_term.exterior_elements
+target_entity_type_id: taxonomy_term
+target_bundle: exterior_elements
+default_langcode: site_default
+language_alterable: false

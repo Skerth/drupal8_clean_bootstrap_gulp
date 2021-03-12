@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24530a576117281101e8d9456b5a843c",
+    "content-hash": "1d518ac34f3ade3f533c0dbd0f3c3def",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1343,6 +1343,72 @@
             "time": "2021-03-04T14:36:14+00:00"
         },
         {
+            "name": "drupal/cshs",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/cshs.git",
+                "reference": "8.x-2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/cshs-8.x-2.3.zip",
+                "reference": "8.x-2.3",
+                "shasum": "b28e0a35349d149a4467eccf9e3b84e14a9b3aa0"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "php": ">=7.3.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.3",
+                    "datestamp": "1614782148",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Walter Jenner",
+                    "homepage": "https://drupal.org/u/valderama"
+                },
+                {
+                    "name": "Sergii Bondarenko",
+                    "homepage": "https://drupal.org/u/BR0kEN",
+                    "email": "sb@firstvector.org"
+                },
+                {
+                    "name": "Daneel Cruz",
+                    "homepage": "https://drupal.org/u/daneelcm"
+                },
+                {
+                    "name": "Purushotam Rai",
+                    "homepage": "https://drupal.org/u/purushotam.rai"
+                }
+            ],
+            "description": "A simple client-side hierarchical select widget for taxonomy terms.",
+            "homepage": "https://www.drupal.org/project/cshs",
+            "keywords": [
+                "client-side-select",
+                "hierarchical-select",
+                "module",
+                "select",
+                "taxonomy"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/cshs",
+                "issues": "https://www.drupal.org/project/issues/cshs"
+            }
+        },
+        {
             "name": "drupal/ctools",
             "version": "3.4.0",
             "source": {
@@ -1641,6 +1707,70 @@
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_reference_revisions"
+            }
+        },
+        {
+            "name": "drupal/field_group",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_group.git",
+                "reference": "8.x-3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_group-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "8a719eaea594f0ba874172831cb28da93c66b77a"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "require-dev": {
+                "drupal/jquery_ui_accordion": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.1",
+                    "datestamp": "1591772567",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Hydra",
+                    "homepage": "https://www.drupal.org/user/647364"
+                },
+                {
+                    "name": "Stalski",
+                    "homepage": "https://www.drupal.org/user/322618"
+                },
+                {
+                    "name": "jyve",
+                    "homepage": "https://www.drupal.org/user/591438"
+                },
+                {
+                    "name": "nils.destoop",
+                    "homepage": "https://www.drupal.org/user/361625"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                }
+            ],
+            "description": "Provides the field_group module.",
+            "homepage": "https://www.drupal.org/project/field_group",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_group",
+                "issues": "https://www.drupal.org/project/issues/field_group"
             }
         },
         {
@@ -2801,6 +2931,84 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/taxonomy_menu",
                 "issues": "http://drupal.org/project/taxonomy_menu"
+            }
+        },
+        {
+            "name": "drupal/term_reference_tree",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/term_reference_tree.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/term_reference_tree-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "35391dd6bfb22bf5e73809ac9c958f25391f00c1"
+            },
+            "require": {
+                "drupal/core": "^8.9 || ^9.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1611902618",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/1088348/committers",
+                    "role": "contributor"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "MoustafaEid",
+                    "homepage": "https://www.drupal.org/user/1126928"
+                },
+                {
+                    "name": "VladimirAus",
+                    "homepage": "https://www.drupal.org/user/673120"
+                },
+                {
+                    "name": "alex_optim",
+                    "homepage": "https://www.drupal.org/user/3317601"
+                },
+                {
+                    "name": "carpenter.490",
+                    "homepage": "https://www.drupal.org/user/804142"
+                },
+                {
+                    "name": "dgtlmoon",
+                    "homepage": "https://www.drupal.org/user/25027"
+                },
+                {
+                    "name": "sdrycroft",
+                    "homepage": "https://www.drupal.org/user/151544"
+                },
+                {
+                    "name": "sumitmadan",
+                    "homepage": "https://www.drupal.org/user/1538790"
+                }
+            ],
+            "description": "An expanding/collapsing tree widget for selecting terms in a taxonomy term reference field.",
+            "homepage": "https://drupal.org/project/term_reference_tree",
+            "support": {
+                "source": "https://git.drupalcode.org/project/term_reference_tree",
+                "issues": "https://drupal.org/project/issues/term_reference_tree"
             }
         },
         {
@@ -11209,7 +11417,6 @@
     "stability-flags": {
         "drupal/colorbox": 20,
         "drupal/filefield_paths": 10,
-        "drupal/paragraphs_browser": 10,
         "drupal/pathauto": 5
     },
     "prefer-stable": true,

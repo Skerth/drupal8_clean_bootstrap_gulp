@@ -1,0 +1,29 @@
+uuid: 4ae01b1d-afa7-4c13-ab99-730c7bc3efc1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_visibility
+    - node.type.car
+    - taxonomy.vocabulary.visibility
+id: node.car.field_car_visibility
+field_name: field_car_visibility
+entity_type: node
+bundle: car
+label: Обзор
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      visibility: visibility
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

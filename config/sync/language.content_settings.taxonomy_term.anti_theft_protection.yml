@@ -1,0 +1,11 @@
+uuid: 41d5042b-94a1-4839-9b63-27caa0ed9aa2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.anti_theft_protection
+id: taxonomy_term.anti_theft_protection
+target_entity_type_id: taxonomy_term
+target_bundle: anti_theft_protection
+default_langcode: site_default
+language_alterable: false

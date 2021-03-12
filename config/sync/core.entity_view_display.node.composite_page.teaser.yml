@@ -1,0 +1,31 @@
+uuid: c7b4072b-c189-4332-900a-ffce265d7884
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.composite_page.body
+    - node.type.composite_page
+  module:
+    - text
+    - user
+id: node.composite_page.teaser
+targetEntityType: node
+bundle: composite_page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

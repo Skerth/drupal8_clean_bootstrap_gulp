@@ -1,0 +1,23 @@
+uuid: ce53f390-353f-4378-97ec-6304b25831ca
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_power
+    - node.type.car
+id: node.car.field_car_power
+field_name: field_car_power
+entity_type: node
+bundle: car
+label: Мощность
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' л.с.'
+field_type: integer

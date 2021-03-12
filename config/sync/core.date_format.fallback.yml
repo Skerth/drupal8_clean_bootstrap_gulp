@@ -1,0 +1,10 @@
+uuid: 709a1f5f-25b2-41f9-959e-c7efeaee66a1
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7klS5IWXrwzVaPpYZFAs6wcx8U2FF1X73OfrtTsvuvE
+id: fallback
+label: 'Резервный формат даты'
+locked: true
+pattern: 'D, m/d/Y - H:i'

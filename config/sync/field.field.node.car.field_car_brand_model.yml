@@ -1,0 +1,29 @@
+uuid: 7b5a02a4-0050-4caa-bed4-7c0f89510f63
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_brand_model
+    - node.type.car
+    - taxonomy.vocabulary.car_brand_model
+id: node.car.field_car_brand_model
+field_name: field_car_brand_model
+entity_type: node
+bundle: car
+label: 'Марка и модель автомобиля'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      car_brand_model: car_brand_model
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,11 @@
+uuid: a1ca890a-54ba-440a-b698-5b5b5b7224b7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.car
+id: node.car
+target_entity_type_id: node
+target_bundle: car
+default_langcode: site_default
+language_alterable: false

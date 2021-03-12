@@ -1,0 +1,29 @@
+uuid: ac13f487-a4e5-4be5-a85d-c55fef3d1852
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_exterior_elements
+    - node.type.car
+    - taxonomy.vocabulary.exterior_elements
+id: node.car.field_car_exterior_elements
+field_name: field_car_exterior_elements
+entity_type: node
+bundle: car
+label: 'Элементы экстерьера'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      exterior_elements: exterior_elements
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

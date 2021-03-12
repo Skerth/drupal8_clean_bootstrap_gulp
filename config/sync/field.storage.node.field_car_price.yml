@@ -1,0 +1,20 @@
+uuid: 2c50a98f-136b-400a-a735-067ca970566a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_car_price
+field_name: field_car_price
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

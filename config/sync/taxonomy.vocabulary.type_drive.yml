@@ -1,0 +1,8 @@
+uuid: 713cafc2-80f6-47c6-ba75-ba7f26ce8780
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Тип привода'
+vid: type_drive
+description: ''
+weight: 0

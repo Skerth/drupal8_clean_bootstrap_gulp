@@ -1,0 +1,29 @@
+uuid: dad7e475-118c-4a91-86dc-8221a2fecb67
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_car_other_options
+    - node.type.car
+    - taxonomy.vocabulary.other_options
+id: node.car.field_car_other_options
+field_name: field_car_other_options
+entity_type: node
+bundle: car
+label: Прочее
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      other_options: other_options
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
