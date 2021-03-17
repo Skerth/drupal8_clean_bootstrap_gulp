@@ -1,0 +1,64 @@
+uuid: 8f8f3ac4-517e-4705-a3e1-427020f597e9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - filter.format.visual_editor
+  module:
+    - ckeditor
+    - editor_file
+third_party_settings:
+  editor_file:
+    status: true
+    scheme: public
+    directory: inline-files
+    extensions: txt
+    max_size: ''
+format: visual_editor
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Форматирование
+          items:
+            - Bold
+            - Italic
+        -
+          name: Ссылки
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Списки
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+        -
+          name: Инструменты
+          items:
+            - Source
+  plugins:
+    stylescombo:
+      styles: ''
+    drupallink:
+      linkit_enabled: false
+      linkit_profile: ''
+    language:
+      language_list: un
+    colorbutton:
+      colors: ''
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

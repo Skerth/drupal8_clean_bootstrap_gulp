@@ -1,0 +1,24 @@
+uuid: 98f47887-0e29-465f-b81a-54309f459036
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slide.field_paragraphs
+    - paragraphs.paragraphs_type.slide
+  module:
+    - entity_reference_revisions
+id: paragraph.slide.default
+targetEntityType: paragraph
+bundle: slide
+mode: default
+content:
+  field_paragraphs:
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden: {  }

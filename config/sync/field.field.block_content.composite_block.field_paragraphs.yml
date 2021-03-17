@@ -1,0 +1,41 @@
+uuid: a23a513b-ba9b-4d46-b12a-9f5845656490
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.composite_block
+    - field.storage.block_content.field_paragraphs
+  module:
+    - entity_reference_revisions
+id: block_content.composite_block.field_paragraphs
+field_name: field_paragraphs
+entity_type: block_content
+bundle: composite_block
+label: paragraphs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles: null
+    target_bundles_drag_drop:
+      container:
+        weight: 6
+        enabled: false
+      gallery:
+        weight: 7
+        enabled: false
+      icon_title_link_text:
+        weight: 8
+        enabled: false
+      text:
+        weight: 9
+        enabled: false
+      text_image:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

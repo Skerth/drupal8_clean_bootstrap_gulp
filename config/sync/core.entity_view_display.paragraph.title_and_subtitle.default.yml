@@ -1,0 +1,42 @@
+uuid: 12c411eb-7f13-45f2-99f0-9c22351e32a1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title_and_subtitle.field_paragraphs
+    - field.field.paragraph.title_and_subtitle.field_subtitle
+    - field.field.paragraph.title_and_subtitle.field_title
+    - paragraphs.paragraphs_type.title_and_subtitle
+  module:
+    - entity_reference_revisions
+id: paragraph.title_and_subtitle.default
+targetEntityType: paragraph
+bundle: title_and_subtitle
+mode: default
+content:
+  field_paragraphs:
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_subtitle:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

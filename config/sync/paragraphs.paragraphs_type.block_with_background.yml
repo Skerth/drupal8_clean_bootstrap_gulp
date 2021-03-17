@@ -1,0 +1,10 @@
+uuid: 6566cafd-90ac-41e6-b324-599e9c3a42cf
+langcode: ru
+status: true
+dependencies: {  }
+id: block_with_background
+label: 'Блок с фоном'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: b1d0635e-4e1d-434f-b849-eb3cb6c2dd59
+langcode: ru
+status: true
+dependencies: {  }
+id: full_width_block
+label: 'Блок на всю ширину'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

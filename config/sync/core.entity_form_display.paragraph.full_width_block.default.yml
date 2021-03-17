@@ -1,0 +1,32 @@
+uuid: 5125720b-05fb-4f13-9d72-53e5c089e3ae
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.full_width_block.field_paragraphs
+    - paragraphs.paragraphs_type.full_width_block
+  module:
+    - paragraphs_browser
+id: paragraph.full_width_block.default
+targetEntityType: paragraph
+bundle: full_width_block
+mode: default
+content:
+  field_paragraphs:
+    weight: 0
+    settings:
+      title: Параграф
+      title_plural: Параграфы
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      paragraphs_browser: _na
+      modal_width: 80%
+      modal_height: auto
+    third_party_settings: {  }
+    type: entity_reference_paragraphs_browser
+    region: content
+hidden:
+  created: true
+  status: true

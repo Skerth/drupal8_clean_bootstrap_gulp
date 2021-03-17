@@ -1,0 +1,29 @@
+uuid: 57002640-16f5-4bc5-8b9e-b1cbc16e4274
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.container.field_paragraphs
+    - paragraphs.paragraphs_type.container
+  module:
+    - paragraphs
+id: paragraph.container.default
+targetEntityType: paragraph
+bundle: container
+mode: default
+content:
+  field_paragraphs:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Параграф
+      title_plural: Параграфы
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

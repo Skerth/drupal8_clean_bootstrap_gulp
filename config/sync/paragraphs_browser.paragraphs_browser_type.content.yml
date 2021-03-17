@@ -6,5 +6,27 @@ _core:
   default_config_hash: KUumpKGaihwt7ld0Ba82jPUpgKDO5aE066wdVfFAztU
 id: content
 label: Content
-groups: {  }
-map: {  }
+groups:
+  blocks:
+    label: Блоки
+    id: blocks
+    weight: '1'
+  elements:
+    label: Элементы
+    id: elements
+    weight: '2'
+  media:
+    label: Медиа
+    id: media
+    weight: '3'
+map:
+  full_width_block: blocks
+  block_with_background: blocks
+  slider: blocks
+  title_and_subtitle: blocks
+  container: blocks
+  gallery: media
+  text_image: elements
+  text: elements
+  slide: elements
+  icon_title_link_text: elements

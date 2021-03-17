@@ -1,0 +1,10 @@
+uuid: 533af1d4-5a76-46de-b78e-b935e4f97e46
+langcode: ru
+status: true
+dependencies: {  }
+id: container
+label: Контейнер
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

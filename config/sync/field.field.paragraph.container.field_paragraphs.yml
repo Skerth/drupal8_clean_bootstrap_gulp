@@ -1,0 +1,32 @@
+uuid: 35d12452-6dc5-428d-8ac2-5c52ed2ffc5e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraphs
+    - paragraphs.paragraphs_type.container
+  module:
+    - entity_reference_revisions
+id: paragraph.container.field_paragraphs
+field_name: field_paragraphs
+entity_type: paragraph
+bundle: container
+label: Параграф
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles: null
+    target_bundles_drag_drop:
+      container:
+        weight: 3
+        enabled: false
+      icon_title_link_text:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

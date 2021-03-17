@@ -1,0 +1,23 @@
+uuid: 8b082a4e-8582-44f7-9d28-7818eb6c5c8f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_side
+    - paragraphs.paragraphs_type.text_image
+  module:
+    - options
+id: paragraph.text_image.field_side
+field_name: field_side
+entity_type: paragraph
+bundle: text_image
+label: 'Вывод изображения'
+description: 'С какой стороны, относительно текста вывести изображение'
+required: false
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

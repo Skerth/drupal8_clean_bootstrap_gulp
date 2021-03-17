@@ -1,0 +1,15 @@
+uuid: b364f78d-e20d-4c66-b277-61be74af77c3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://icon_title_link_text.png'
+id: icon_title_link_text
+label: 'Иконка, заголовок (ссылка), текст'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

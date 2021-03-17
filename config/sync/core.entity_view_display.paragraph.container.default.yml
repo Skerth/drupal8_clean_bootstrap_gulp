@@ -1,25 +1,24 @@
-uuid: 6805b223-2630-4f2e-b8bf-8044045e3b3e
+uuid: 5e205cc5-2674-4627-830f-6ac278491e3b
 langcode: ru
 status: true
 dependencies:
   config:
-    - block_content.type.composite_block
-    - field.field.block_content.composite_block.field_paragraphs
+    - field.field.paragraph.container.field_paragraphs
+    - paragraphs.paragraphs_type.container
   module:
     - entity_reference_revisions
-id: block_content.composite_block.default
-targetEntityType: block_content
-bundle: composite_block
+id: paragraph.container.default
+targetEntityType: paragraph
+bundle: container
 mode: default
 content:
   field_paragraphs:
     type: entity_reference_revisions_entity_view
-    weight: 1
+    weight: 0
     label: above
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
     region: content
-hidden:
-  langcode: true
+hidden: {  }

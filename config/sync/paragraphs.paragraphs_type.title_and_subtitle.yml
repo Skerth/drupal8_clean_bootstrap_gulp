@@ -1,0 +1,10 @@
+uuid: dbcdbadf-9ef6-4850-852c-cb47c294afcd
+langcode: ru
+status: true
+dependencies: {  }
+id: title_and_subtitle
+label: 'Блок с заголовком и подзаголовком'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

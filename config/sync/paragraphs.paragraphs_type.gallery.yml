@@ -1,0 +1,10 @@
+uuid: 3fe85fd2-d7b7-4528-a0a5-ae9f180c3047
+langcode: ru
+status: true
+dependencies: {  }
+id: gallery
+label: Фотогалерея
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

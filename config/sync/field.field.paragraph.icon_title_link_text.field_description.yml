@@ -1,0 +1,21 @@
+uuid: 40061cc9-3d63-4ac6-82da-0b330d2d785f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.icon_title_link_text
+  module:
+    - text
+id: paragraph.icon_title_link_text.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: icon_title_link_text
+label: Текст
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

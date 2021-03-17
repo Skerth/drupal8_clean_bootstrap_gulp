@@ -1,0 +1,51 @@
+uuid: b5ba0a41-9e2b-422c-82f4-627658077024
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraphs
+    - paragraphs.paragraphs_type.slide
+  module:
+    - entity_reference_revisions
+id: paragraph.slide.field_paragraphs
+field_name: field_paragraphs
+entity_type: paragraph
+bundle: slide
+label: Параграф
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      slide: slide
+    target_bundles_drag_drop:
+      container:
+        weight: 9
+        enabled: false
+      full_width_block:
+        weight: 10
+        enabled: false
+      gallery:
+        weight: 11
+        enabled: false
+      icon_title_link_text:
+        weight: 12
+        enabled: false
+      slide:
+        enabled: true
+        weight: 13
+      slider:
+        weight: 14
+        enabled: false
+      text:
+        weight: 15
+        enabled: false
+      text_image:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

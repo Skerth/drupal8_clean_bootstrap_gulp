@@ -1,0 +1,19 @@
+uuid: 2cceb2a0-9bbb-4649-965e-f9efdd61cf8a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+name: HTML
+format: html
+weight: 0
+filters:
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_media_types: {  }
+      allowed_view_modes: {  }

@@ -1,0 +1,32 @@
+uuid: d11b658d-9a3f-4dc6-bfc7-a8ed244071d8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slide.field_paragraphs
+    - paragraphs.paragraphs_type.slide
+  module:
+    - paragraphs_browser
+id: paragraph.slide.default
+targetEntityType: paragraph
+bundle: slide
+mode: default
+content:
+  field_paragraphs:
+    weight: 0
+    settings:
+      title: Параграф
+      title_plural: Параграфы
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      paragraphs_browser: _na
+      modal_width: 80%
+      modal_height: auto
+    third_party_settings: {  }
+    type: entity_reference_paragraphs_browser
+    region: content
+hidden:
+  created: true
+  status: true

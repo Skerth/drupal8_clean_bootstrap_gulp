@@ -1,0 +1,27 @@
+uuid: e41f7db6-5a67-4648-9c48-e4b8f5f4b3ff
+langcode: ru
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_side
+field_name: field_side
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left
+      label: 'Изображение слева'
+    -
+      value: right
+      label: 'Изображение справа'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
